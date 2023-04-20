@@ -1,0 +1,18 @@
+{
+  "name": "nickolayshuliak/shopware-plugin",
+  "description": "Hello World plugin!",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "NickolayShuliak\\ShopwarePlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "NickolayShuliak\\ShopwarePlugin\\NickolayShuliakShopwarePlugin",
+    "label": {
+      "en-GB": "This is my description!",
+      "de-DE": "Das ist meine Beschreibung!"
+    }
+  }
+}

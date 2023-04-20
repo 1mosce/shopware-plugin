@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Choose your color</title>
+        <!-- <input-field type="colorpicker">
+            <name>sassPluginHeaderBgColor</name>
+            <label>Header background color</label>
+            <defaultValue>#ccc</defaultValue>
+        </input-field> -->
+
+        <input-field type="single-select">
+            <name>sassPluginHeaderBgColor</name>
+            <options>
+                <option>
+                    <id>#ff0000</id>
+                    <name>Red color</name>
+                </option>
+                <option>
+                    <id>#00ff00</id>
+                    <name>Green</name>
+                </option>
+                <option>
+                    <id>#0000FF</id>
+                    <name>Blue</name>
+                </option>
+            </options>
+            <defaultValue>#ff0000</defaultValue>
+            <label>Choose color for a button</label>
+        </input-field>
+    </card>
+</config>
